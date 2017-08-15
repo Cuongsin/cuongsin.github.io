@@ -1,0 +1,279 @@
+*{margin: 0; padding: 0;} 
+body{
+	font-family: 'Open sans'
+}
+.top{
+	height: 500px;
+	background: url(1.jpg) center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 500px;
+}
+.top .logo img{
+	width: 70%;
+	height: 70%;
+	transition:0.4s;
+}
+.top .menutren{
+	background: transparent;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-bottom: 1px solid white;
+}
+.navbar-light .navbar-toggler{
+	border-color: white;
+}
+ .navbar-light .navbar-nav .nav-link{
+	color: #989898;
+	padding-left: 30px;
+	transition:0.4s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#ff7373;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	color:#ff7373;
+}
+.top .nentrang{
+	background-color: white;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+
+}
+.top .nentrang .logo img{
+	width: 55%;
+	height: 55%;
+}
+.about, .edu, .skill, .product, .contact{
+	padding-top: 5%;
+}
+h2{
+	margin-bottom: 5%;
+}
+.about{
+	margin-top: -230px;
+}
+.about h5,h3,h6{
+	color: #909090;
+}
+.about h3{
+	font-size: 27px;
+}
+.about strong{
+	color: #505050;
+}
+.about h5{
+	font-size: 20px;
+}
+.about h6{
+	font-size: 15px;
+}
+
+.about .card hr{
+	border-top: 1px solid #ff7373;
+}
+.card{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+	border: 0px;
+
+}
+h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #505050;
+}
+
+.about .card{
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+	border: 0px;
+}
+.about .card .info{
+	padding-top: 8%;
+}
+.about .card .info ul{
+	list-style: none;
+	line-height: 35px;
+}
+.about .card .info .info-left{
+	font-size: 13px;
+	font-weight: bold;
+	color: #505050;
+}
+.about .card .info .info-right{
+	font-size: 15px;
+	color:#909090; 
+}
+.about .card .bg{
+	height: 60px;
+	background-color: #ff7373;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.about .card .bg ul{
+	list-style: none;
+}
+.about .card .bg ul li{
+	display: inline-block;
+	padding: 22px 20px;
+}
+.about .card .bg ul li a{
+	font-size: 20px;
+	text-decoration:none;
+	color: #f8f8f8;
+	transition:0.4s;
+}
+.about .card .bg ul li a:hover{
+	color: #00588d;
+}
+
+.skill .one-skill{
+	margin-top:25px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.skill .one-skill h5{
+	font-size: 15px;
+}
+.skill .one-skill .line{
+	width:100%;	
+	height: 4px;
+	border-radius: 2px;
+	background-color: rgba(255, 115, 115, 0.4); 
+}
+.skill .one-skill .line-data{
+	margin-top: -3px;	
+	height: 4px;
+	border-radius: 2px;
+	background-color: #ff7373; 
+	position: absolute;
+	bottom: 0px;
+}
+.edu .card .info{
+	margin: 10px 0px;
+}
+.edu .card .info h5{
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff7373;
+}
+.edu .card .info h6{
+	font-size: 17px;
+	color: #454545;
+}
+.edu .card .info p{
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #909090;
+}
+.product .fa{
+	display: block;
+	visibility: hidden;
+	
+}
+.product .left .fa{
+	margin-right: 150px;
+}
+.product .right .fa{
+	margin-left: 150px;
+}
+.product h3{
+	color: white;
+	font-size: 16px;
+}
+.product p{
+	color: #dedede;
+	font-size: 12px;
+}
+.product .carousel{
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.carousel-indicators li{
+	width: 6px;
+	height: 6px;
+}
+.carousel-indicators .active{
+	width: 7px;
+	height: 7px;
+}
+.contact .info{
+	padding-top:10px;
+}
+.contact h5{
+	font-weight:bold;
+	color:#ff7373;
+	font-size:16px;	
+}
+.contact h6{
+	font-size: 13px;
+	color: #909090;
+}
+.footer {
+	margin-top: 3%;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    font-size: 13px;
+    color: #9d9d9d;
+    position: relative;
+}
+.footer .coppy{
+	padding-top: 2%;
+}
+@media(max-width:576px){
+	.top .menutren{
+		background-color:rgba(0, 44, 75, 0.56);
+		border-bottom:none;
+		
+	}
+	.top .nentrang{
+		background-color:white;
+	}
+
+	.navbar-light .navbar-nav .nav-link{
+		text-align: left;
+		color: rgb(165, 165, 165);
+		font-size: 13px;
+		border-bottom: 1px gray;
+	}
+	.about h6{
+		font-size:13px;
+		line-height:20px;
+	}
+	.about h3{
+		font-size:22px;
+	}
+	.about h5{
+		font-size:18px;
+	}
+	.about .card .info ul{
+		line-height: 65px;
+	}
+	.about .card .info .info-right{
+		margin-top: -320px;
+	}
+	.product h3{
+		font-size:12px;
+	}
+	.product p{
+		font-size:9px;
+		line-height:5px;
+	}
+	.footer .coppy{
+		font-size:11px;
+		padding-top: 4%;
+	}
+	.edu .card .info h5{
+		font-size: 16px;
+	}
+	.edu .card .info h6{
+		font-size: 15px;
+	}
+	.edu .card .info p{
+		font-size: 9px
+	}
+	h2{
+		font-size: 27px;
+	}
+}
